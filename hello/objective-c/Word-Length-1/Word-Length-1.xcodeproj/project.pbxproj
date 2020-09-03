@@ -88,7 +88,7 @@
 		0454DA0724EFBE560020D447 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = lipeiv;
 				TargetAttributes = {
 					0454DA0E24EFBE560020D447 = {
@@ -238,6 +238,7 @@
 		0454DA1724EFBE560020D447 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QRHMDCG2B;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -248,6 +249,7 @@
 		0454DA1824EFBE560020D447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QRHMDCG2B;
 				ENABLE_HARDENED_RUNTIME = YES;
