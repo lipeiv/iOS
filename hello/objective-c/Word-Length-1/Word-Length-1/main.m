@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    const char *words[4] = {"aardvark", "abacus", "allude", "zygote"};
+    char *words[4] = {"aard", "abacufs", "alldude", "zydote"};
+    NSLog(@"address %x", &words);
     int wordCount = 4;
     
     for(int i = 0; i < wordCount; i ++){
-        NSLog(@"%s is %lu characters long", words[i], strlen(words[i]));
+        NSLog(@"%s is %lu characters long, %x", words[i], strlen(words[i]), &words[i]);
     }
 
     return 0;
