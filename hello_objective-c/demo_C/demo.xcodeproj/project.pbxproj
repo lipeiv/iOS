@@ -25,7 +25,6 @@
 /* Begin PBXFileReference section */
 		EB135ECA22B0E99100A60C4D /* demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB135ECD22B0E99100A60C4D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		EBFBD4EF22B3C6B700B375A3 /* Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				EB135ECD22B0E99100A60C4D /* main.c */,
-				EBFBD4EF22B3C6B700B375A3 /* Window.xib */,
 			);
 			path = demo;
 			sourceTree = "<group>";
