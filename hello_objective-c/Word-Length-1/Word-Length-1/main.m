@@ -9,13 +9,21 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    NSString *words[4] = {@"aard", @"abacufs", @"alldude", @"zydote"};
-    NSLog(@"address %p", words);
-    int wordCount = 4;
-    
-    for(int i = 0; i < wordCount; i ++){
-        NSLog(@"%@ is %lu characters long", words[i], [words[i] length]);
+    @autoreleasepool {
+        NSString *words[4] = {@"abcd", @"汉字", @"漢字が", @"😂"};
+        NSLog(@"address %p", words);
+        int wordCount = 4;
+        for(int i = 0; i < wordCount; i ++){
+            NSLog(@"%@ is %lu characters long", words[i], [words[i] length]);
+        }
+        
+        char char1 = 'a';
+        char char2 = '\t';
+        char char3 = 'b';
+        NSLog(@"%c%c%c", char1, char2, char3);
+        return 0;
+        
+        
     }
-
-    return 0;
+        
 }// main
