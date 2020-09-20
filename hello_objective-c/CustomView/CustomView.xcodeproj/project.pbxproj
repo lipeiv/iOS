@@ -16,6 +16,7 @@
 		9E3718922517A4410095EBD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3718912517A4410095EBD1 /* main.m */; };
 		9E37189C2517A4410095EBD1 /* CustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E37189B2517A4410095EBD1 /* CustomViewTests.m */; };
 		9E3718A72517A4410095EBD1 /* CustomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3718A62517A4410095EBD1 /* CustomViewUITests.m */; };
+		9E3718B92517A5EC0095EBD1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3718B82517A5EC0095EBD1 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9E3718A22517A4410095EBD1 /* CustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3718A62517A4410095EBD1 /* CustomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewUITests.m; sourceTree = "<group>"; };
 		9E3718A82517A4410095EBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3718B72517A5EC0095EBD1 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		9E3718B82517A5EC0095EBD1 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				9E37188D2517A4410095EBD1 /* LaunchScreen.storyboard */,
 				9E3718902517A4410095EBD1 /* Info.plist */,
 				9E3718912517A4410095EBD1 /* main.m */,
+				9E3718B72517A5EC0095EBD1 /* CustomView.h */,
+				9E3718B82517A5EC0095EBD1 /* CustomView.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3718B92517A5EC0095EBD1 /* CustomView.m in Sources */,
 				9E3718872517A43E0095EBD1 /* ViewController.m in Sources */,
 				9E3718812517A43E0095EBD1 /* AppDelegate.m in Sources */,
 				9E3718922517A4410095EBD1 /* main.m in Sources */,
