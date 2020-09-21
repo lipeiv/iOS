@@ -18,6 +18,7 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (IBAction)switch:(id)sender {
     if([sender isOn] == YES){
         self.view.backgroundColor = [UIColor whiteColor];
@@ -26,4 +27,5 @@
         self.view.backgroundColor = [UIColor blackColor];
     }
 }
+
 @end
