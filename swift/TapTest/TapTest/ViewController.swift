@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     
     @objc func tapped(sender:UIButton) {
-        print("tapped")
+        print(self.label1.text as Any,self.label2.text as Any)
         self.label1.text = text1.text
         self.label2.text = text2.text
     }
