@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  test
+//  TapTest
 //
 //  Created by MAC on 2020/12/31.
 //  Copyright © 2020 Test. All rights reserved.
@@ -8,7 +8,6 @@
 
 import UIKit
 
-@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
