@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         button.addTarget(self, action: #selector(tapped), for: .touchUpInside)
+        
     
     }
     
@@ -30,4 +31,5 @@ class ViewController: UIViewController {
     }
 
 }
+
 
