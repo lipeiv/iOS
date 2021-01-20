@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  sample
+//  navi
 //
-//  Created by MAC on 2021/01/04.
+//  Created by MAC on 2021/01/14.
 //  Copyright © 2021 Mti. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
