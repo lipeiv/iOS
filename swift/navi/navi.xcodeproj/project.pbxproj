@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E644BA125B98F1A00442084 /* SettingViewController.swift 18-26-36-436.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E644BA025B98F1A00442084 /* SettingViewController.swift 18-26-36-436.swift */; };
 		9ECBD44425B9251E00BFF737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBD44325B9251E00BFF737 /* AppDelegate.swift */; };
 		9ECBD44825B9251E00BFF737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBD44725B9251E00BFF737 /* ViewController.swift */; };
 		9ECBD44B25B9251E00BFF737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECBD44925B9251E00BFF737 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E644BA025B98F1A00442084 /* SettingViewController.swift 18-26-36-436.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SettingViewController.swift 18-26-36-436.swift"; path = "../../../../../.Trash/SettingViewController.swift 18-26-36-436.swift"; sourceTree = "<group>"; };
 		9ECBD44025B9251D00BFF737 /* navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECBD44325B9251E00BFF737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ECBD44725B9251E00BFF737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				9ECBD44925B9251E00BFF737 /* Main.storyboard */,
 				9ECBD44C25B9252200BFF737 /* Assets.xcassets */,
 				9ECBD45125B9252200BFF737 /* Info.plist */,
+				9E644BA025B98F1A00442084 /* SettingViewController.swift 18-26-36-436.swift */,
 			);
 			path = navi;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ECBD44825B9251E00BFF737 /* ViewController.swift in Sources */,
+				9E644BA125B98F1A00442084 /* SettingViewController.swift 18-26-36-436.swift in Sources */,
 				9ECBD44425B9251E00BFF737 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
