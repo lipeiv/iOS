@@ -34,11 +34,11 @@ class SettingViewController: UIViewController {
             print("設定")
             version.text = alias
             endpointId.text = tag
-            display_(title: alias!, desc: tag!);
-            aliasText.resignFirstResponder()
-            tagText.resignFirstResponder()
+            self.view.endEditing(true)
+            //aliasText.resignFirstResponder()
+            //tagText.resignFirstResponder()
+            display_(title: alias!, desc: tag!)
 
-        
     }
     
     
