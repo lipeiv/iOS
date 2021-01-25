@@ -19,9 +19,13 @@ class SettingViewController: UIViewController {
 
         self.navigationItem.title="設定"
         
+        let tagArr = ["hyron","hi"]
+        var tagtext = ""
         
- 
-        
+        for item in tagArr{
+            tagtext = tagtext.appending(item)
+        }
+        self.tagText.text = tagtext
         
     }
         
@@ -31,7 +35,10 @@ class SettingViewController: UIViewController {
             let alias = aliasText.text
             let tag = tagText.text
             
-            print("設定")
+            let tagArray = tag?.components(separatedBy: ",")
+            print(tagArray as Any)
+            
+            
             version.text = alias
             endpointId.text = tag
             self.view.endEditing(true)

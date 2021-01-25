@@ -7,14 +7,9 @@
 
 import UIKit
 
-class RootViewTextCell: UIViewController {
+class RootViewTextCell: UITableViewCell {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
+    @IBOutlet var weakTitle:UILabel?
 
     /*
     // MARK: - Navigation

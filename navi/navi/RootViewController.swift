@@ -13,6 +13,8 @@ class RootViewController: UITableViewController{
     var settingButton :UIBarButtonItem!
     var settingController: SettingViewController!
     var bundle = Bundle.main
+    var cell=RootViewTextCell()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +27,10 @@ class RootViewController: UITableViewController{
                                              action: #selector(settingButtonPushed(settingButton:)));
         self.navigationItem.rightBarButtonItem = self.settingButton;
         
-        let cell = bundle.loadNibNamed("RootViewTextCell", owner: nil, options: nil)![0]
-        
+        //let cell = bundle.loadNibNamed("RootViewTextCell", owner: nil, options: nil)?[0]
+        cell.textLabel?.text="hello"
         print(cell)
-        self.tableView.addSubview(cell as! UIView)
+        self.tableView.addSubview(cell)
     }
 
     @objc func settingButtonPushed(settingButton: UIBarButtonItem) {

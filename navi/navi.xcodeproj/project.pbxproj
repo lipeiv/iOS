@@ -13,7 +13,6 @@
 		9EC614DF25BC08F900BB0E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC614DE25BC08F900BB0E85 /* Assets.xcassets */; };
 		9EC614EE25BC0AD300BB0E85 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC614ED25BC0AD300BB0E85 /* SettingViewController.swift */; };
 		9EC614F225BC0BFE00BB0E85 /* RootViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC614F025BC0BFE00BB0E85 /* RootViewTextCell.swift */; };
-		9EC614F325BC0BFE00BB0E85 /* RootViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC614F125BC0BFE00BB0E85 /* RootViewTextCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		9EC614E325BC08F900BB0E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EC614ED25BC0AD300BB0E85 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		9EC614F025BC0BFE00BB0E85 /* RootViewTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewTextCell.swift; sourceTree = "<group>"; };
-		9EC614F125BC0BFE00BB0E85 /* RootViewTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewTextCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 				9EC614D925BC08F500BB0E85 /* RootViewController.swift */,
 				9EC614ED25BC0AD300BB0E85 /* SettingViewController.swift */,
 				9EC614F025BC0BFE00BB0E85 /* RootViewTextCell.swift */,
-				9EC614F125BC0BFE00BB0E85 /* RootViewTextCell.xib */,
 				9EC614DE25BC08F900BB0E85 /* Assets.xcassets */,
 				9EC614E325BC08F900BB0E85 /* Info.plist */,
 			);
@@ -129,7 +126,6 @@
 			files = (
 				9EC614DF25BC08F900BB0E85 /* Assets.xcassets in Resources */,
 				9EC614DD25BC08F500BB0E85 /* Main.storyboard in Resources */,
-				9EC614F325BC0BFE00BB0E85 /* RootViewTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
