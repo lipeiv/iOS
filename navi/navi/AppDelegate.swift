@@ -11,11 +11,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var viewc = RootViewController()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        display_(title: "おはようございます", desc: "desc")
-        
+
+        //display_(title: "Hello", desc: "desc")
         return true
     }
 
@@ -23,7 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let alert = UIAlertController(title: title, message: desc, preferredStyle: .alert)
         let OKAction = UIAlertAction(title: "了解", style: UIAlertAction.Style.cancel, handler: nil);
         alert.addAction(OKAction)
-        UIApplication.shared.keyWindow?.rootViewController!.present(alert, animated: true, completion: nil)
+        //UIApplication.shared.keyWindow?.rootViewController!.present(alert, animated: true, completion: nil)
+        print(">>>>>", viewc, "<<<<<<")
+        viewc.appendData(title: title,desc: desc)
+    
     }
 
 }

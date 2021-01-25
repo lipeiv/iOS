@@ -9,7 +9,9 @@ import UIKit
 
 class RootViewTextCell: UITableViewCell {
 
-    @IBOutlet var weakTitle:UILabel?
+    @IBOutlet weak var titleLabel:UILabel!
+    @IBOutlet weak var descLabel:UILabel!
+    
 
     /*
     // MARK: - Navigation
