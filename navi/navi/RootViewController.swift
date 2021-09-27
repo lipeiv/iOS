@@ -7,13 +7,12 @@
 
 import UIKit
 
-class RootViewController: UITableViewController{
- 
+class RootViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
    
     var settingButton :UIBarButtonItem!
     var settingController: SettingViewController!
     var bundle = Bundle.main
-    var cell = RootViewTextCell()
+    let cell=TableViewCell()
     
     
     override func viewDidLoad() {
@@ -27,8 +26,8 @@ class RootViewController: UITableViewController{
                                              action: #selector(settingButtonPushed(settingButton:)));
         self.navigationItem.rightBarButtonItem = self.settingButton;
         
-        let cell = bundle.loadNibNamed("TableViewCell", owner: nil, options: nil)?[0]
-        self.tableView.addSubview(cell as! UIView )
+        //let cell = bundle.loadNibNamed("TableViewCell", owner: nil, options: nil)?[0]
+        //self.tableView.addSubview(cell as! UIView )
         
     }
 
@@ -39,13 +38,22 @@ class RootViewController: UITableViewController{
 
     func appendData(title:String, desc:String){
      
-        //cell.titleLabel?.text=title
-        //cell.descLabel?.text=desc
-        
         //print("Ctrl>table>>", tableView as Any, "<<<Ctrl")
         print("Ctrl>cell>>", cell as Any, "<<<Ctrl")
         //self.tableView.addSubview(cell)
     }
 
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        cell.titleLabel?.text="title"
+        cell.descLabel?.text="desc"
+        
+        return cell
+    }
+    
+ 
 }

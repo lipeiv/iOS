@@ -9,6 +9,9 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    let titleLabel:UILabel! = nil
+    let descLabel:UILabel! = nil
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
